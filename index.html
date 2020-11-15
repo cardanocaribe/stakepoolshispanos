@@ -50,9 +50,9 @@ body {
   border: none;
   color: #16213e;
   text-align: center;
-  font-size: auto;
+  font-size: 30px;
   padding: 20px;
-  width: 200px;
+  width: auto;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -67,16 +67,16 @@ body {
 }
 
 .button span:after {
-  content: '\00bb';
+/*content: 'Info';*/
   position: absolute;
   opacity: 0;
-  top: 0;
-  right: -20px;
+  top: 20;
+  right: -10px;
   transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+  padding-bottom: 20px;
 }
 
 .button:hover span:after {
