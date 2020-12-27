@@ -1,177 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-   
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    margin: 5px;
-    color: white;
-}
-    
-.contenido {
-    width: auto;
-    font-family: sans-serif;
-    background-color: #1a1a2e;
-    padding: 10px;
-}
-    
-.topnav {
-  overflow: hidden;
-  background-color: #0f3460;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 21px;
-}
-
-.topnav a:hover {
-  background-color: #e94560;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #e94560;
-  color: white;
-}
-    
-.button {
-  border-radius: 5px;
-  background-color: #e94560;
-  border: none;
-  color: #16213e;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bolder;
-  padding: 7px;
-  width: auto;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-/*content: 'Info';*/
-  position: absolute;
-  opacity: 0;
-  top: 20;
-  right: -10px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-    
-.footer {
-    width: auto;
-    font-family: sans-serif;
-    background-color: #0f3460;
-    padding: 10px;
-    text-align: right;
-    margin: 30px 1px;;
-}
-    
-    .collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-    
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div class="contenido">
-
-<div class="topnav">
-  <a class="active" href="index.html">Inicio</a>
-  <a href="#">Pools</a>
-  <a href="#">Acerca de</a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Apoya a la comunidad!</h2>
-  <p>Al delegar a los siguientes pools, no solo ayudas a la descentralización pero también apoyas a la comunidad de operadores hispano-parlantes!</p>
-</div>
-
-<h1>Pools Hispanos/Latinos</h1>
-
-<a href="#"><button class="button"><span>ADAES </span></button></a>
-<a href="#"><button class="button"><span>ADAMX </span></button></a>
-<a href="#m"><button class="button"><span>ADP </span></button></a>
-<a href="#"><button class="button"><span>AMAR </span></button></a>
-<a href="#"><button class="button"><span>ANGEL </span></button></a>
-<a href="#"><button class="button"><span>APOLO </span></button></a>
-<a href="#"><button class="button"><span>ARG </span></button></a>
-<a href="#"><button class="button"><span>AZTEC </span></button></a>
-<a href="#"><button class="button"><span>BLESS </span></button></a>
-<a href="https://google.com"><button class="button"><span>CASH </span></button></a>
-<a href="https://google.com"><button class="button"><span>CASSO </span></button></a>
-<a href="https://google.com"><button class="button"><span>CPOOL </span></button></a>
-<a href="https://google.com"><button class="button"><span>GEN00 </span></button></a>
-<a href="https://google.com"><button class="button"><span>GENKI </span></button></a>
-<a href="https://google.com"><button class="button"><span>GROW </span></button></a>
-<a href="https://google.com"><button class="button"><span>LATAM </span></button></a>
-<a href="https://google.com"><button class="button"><span>LUG </span></button></a>
-<a href="https://google.com"><button class="button"><span>MOXIE </span></button></a>
-<a href="https://google.com"><button class="button"><span>MRVL2 </span></button></a>
-<a href="https://google.com"><button class="button"><span>OTAKU </span></button></a>
-<a href="https://google.com"><button class="button"><span>RPST </span></button></a>
-<a href="https://google.com"><button class="button"><span>SARGA </span></button></a>
-<a href="https://google.com"><button class="button"><span>SOLO </span></button></a>
-<a href="https://google.com"><button class="button"><span>STKAR </span></button></a>
-<a href="https://google.com"><button class="button"><span>TCHP </span></button></a>
-<a href="topo.html"><button class="button"><span>TOPO </span></button></a>
-
-
-<div class="footer">
-    <h2>Stake Pools Hispanos/Latinos</h2>
-    <p>Creado por JAGO</p>
-</div>
-</div>
-
+    <div class="header">
+        <h1>Titulo del blog</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, labore!</h3>
+    </div>
+    <div class="container">
+        <div class="menu-outer">
+            <nav class="menu-inner">
+                <a href="index.html">Inicio</a>
+                <a href="">Categorias</a>
+                <a href="/">Contacto</a>
+                <a href="">Acerca de</a>
+            </nav>
+        </div>
+        <div class="main">
+            <div id="title">
+                <h1>Titulo del articulo</h1>
+            </div>
+            <div id="paragraph">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus repellat fuga voluptas, aliquam reprehenderit commodi dolores minus. Quam laboriosam, quibusdam sit. Iste labore magnam vero asperiores omnis dolorem ab aspernatur distinctio voluptatum, rerum, ut placeat facere soluta incidunt nulla at magni necessitatibus nesciunt aperiam rem neque. 
+               </p>
+               
+               <p>Nam natus porro minima harum reprehenderit eius quisquam incidunt. Maiores, inventore deleniti ad labore accusantium est quidem veritatis, hic omnis libero commodi. Dolores pariatur labore id odit vitae voluptatum, magnam. Laboriosam totam laudantium excepturi quam expedita sint, ipsam harum dolor repudiandae accusamus, quia libero nulla optio earum aut quidem dolorem maiores rem aperiam saepe ullam. Odit deleniti minima cumque fugiat natus dolorum tenetur inventore, quam modi perferendis soluta voluptate non blanditiis hic suscipit quis veniam voluptas impedit quisquam corrupti accusamus dolor quas at veritatis. Sunt fugiat, ad, est odit, dolorum rem ipsa deserunt non eligendi sint perspiciatis exercitationem animi magnam ipsam vitae consequuntur nam, provident ipsum sequi. Libero modi dolore, similique repudiandae nam nobis, rerum atque est, asperiores quo consequuntur. 
+               </p>
+               
+               <p>Repellat nemo voluptates maiores, quidem consequatur repellendus sit itaque ipsam distinctio accusamus expedita hic. Consequatur quos maiores totam. Nulla maiores ratione architecto perferendis minima, labore porro corporis beatae quos dolorum reprehenderit alias minus eligendi veritatis optio error ipsam obcaecati, vitae illum atque consequatur dignissimos corrupti. Voluptas quas, quibusdam ratione modi temporibus nesciunt ipsam dignissimos itaque, cum sequi quo quisquam, error quod animi maxime inventore ipsum at magni ea. Deleniti nisi dolorem recusandae aliquid facilis tempora. Esse nisi tempore natus laboriosam vero dolorum magni qui!
+               </p>
+            </div>
+        </div>
+       <div class="sidebar">
+            <div id="titlebar">
+                <h1>Titulo de la barra lateral</h1>
+            </div>
+            <div id="textbar">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, deleniti!</p>
+            </div>
+       </div>
+       <div class="footer">
+           <h1>Pie de pagina</h1>
+       </div>
+   </div>
+    
 </body>
 </html>
